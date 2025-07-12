@@ -6,3 +6,4 @@ Scam URL Blocker Chrome Extention
 register on https://urlquery.net/ , confirm your email , use API key in extention
 
 to install extention , download files in single folder  , go to extentions screen, enable developer mode, choose "Load Unpacked"
+<img width="649" height="136" alt="image" src="https://github.com/user-attachments/assets/9ea823d9-695d-4f07-8cb5-511e55a1de24" />
