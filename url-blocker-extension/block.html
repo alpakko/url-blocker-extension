@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Blocked Site</title>
+  <link rel="stylesheet" href="block.css">
+</head>
+<body>
+  <h1>🚫 Scam Site Blocked</h1>
+  <p>This site has been flagged as a scam or phishing attempt.</p>
+  <p id="blockedUrl"></p>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const url = params.get("blocked");
+    document.getElementById("blockedUrl").innerText = url;
+  </script>
+</body>
+</html>

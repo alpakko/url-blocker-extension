@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Scam URL Blocker",
+  "version": "1.1",
+  "description": "Blocks phishing/scam URLs using urlquery.net",
+  "permissions": ["tabs", "webNavigation", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_title": "Scam Blocker"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["block.html", "block.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
