@@ -5,4 +5,4 @@ Scam URL Blocker Chrome Extention
 
 register on https://urlquery.net/ , confirm your email , use API key in extention
 
-
+to install extention , download files in single folder  , go to extentions screen, enable developer mode, choose "Load Unpacked"
